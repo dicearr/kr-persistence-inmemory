@@ -1,0 +1,29 @@
+{
+  "name": "kr-persistence-inmemory",
+  "version": "1.0.0",
+  "description": "Koa-rester module for adding in-memory persistence",
+  "main": "index.js",
+  "scripts": {
+    "docs": "jsdoc2md --configure jsdoc.conf.json --template TEMPLATE.md index.js > README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicearr/kr-persistence-inmemory.git"
+  },
+  "keywords": [
+    "koa-rester"
+  ],
+  "author": "Diego Ceresuela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dicearr/kr-persistence-inmemory/issues"
+  },
+  "homepage": "https://github.com/dicearr/kr-persistence-inmemory#readme",
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "jsdoc-strip-async-await": "^0.1.0",
+    "jsdoc-to-markdown": "^3.0.0",
+    "standard": "^10.0.3"
+  }
+}
